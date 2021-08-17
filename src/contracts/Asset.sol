@@ -47,6 +47,7 @@ contract Asset {
     status = STATUSES.SENT;
 
     // Make _to new custodian
+    //IDEA: Create a way to make a QR code here
     custodian = _to;
 
     // Log history

@@ -71,6 +71,7 @@ class App extends Component {
     })
   }
 
+//Deploying a New Smart Contract everytime here
   createAsset = async (name) => {
     this.setState({ loading: true })
     const contract = new window.web3.eth.Contract(Asset.abi)
